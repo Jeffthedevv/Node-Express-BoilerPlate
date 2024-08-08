@@ -4,14 +4,18 @@
   "description": "```\r - Install dependencies\r ```\r cd <project_name>\r npm install\r ```",
   "main": ".js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jeffery Diaz",
   "license": "MIT",
   "dependencies": {
     "axios": "^1.7.3",
+    "cors": "^2.8.5",
     "express": "^4.19.2",
-    "http-status": "^1.7.4"
+    "helmet": "^7.1.0",
+    "http-status": "^1.7.4",
+    "node-cron": "^3.0.3"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
