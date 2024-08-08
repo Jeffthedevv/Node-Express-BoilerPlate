@@ -1,0 +1,19 @@
+{
+  "name": "node-express-boilerplate",
+  "version": "1.0.0",
+  "description": "```\r - Install dependencies\r ```\r cd <project_name>\r npm install\r ```",
+  "main": ".js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeffery Diaz",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.3",
+    "express": "^4.19.2",
+    "http-status": "^1.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
